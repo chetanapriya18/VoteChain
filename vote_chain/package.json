@@ -1,0 +1,13 @@
+{
+  "name": "vote_cchain",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx hardhat test",
+    "node": "npx hardhat node",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.1"
+  }
+}
